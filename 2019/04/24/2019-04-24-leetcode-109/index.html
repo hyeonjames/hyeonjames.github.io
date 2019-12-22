@@ -7,16 +7,22 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-<title>Archives: 2019 - hyeon&#39;s devlog</title>
+<title>Convert Sorted List to Binary Search Tree - hyeon&#39;s devlog</title>
 
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="hyeon&#39;s devlog">
-<meta property="og:url" content="https://hyeon.dev/archives/2019/index.html">
+    <meta name="description" content="Convert Sorted List to Binary Search Tree Solution 1: Convert To Array and Recursion afterward입력이 LinkedList 로 주어진다. 잘 생각해보면 정렬된 배열 -&gt; BST로 바꾸는 것은 간단하다. 해당 배열의 맨 중간 값을 현재 노드의 값으로 선택하고 왼쪽 서브 배열, 오른쪽">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Convert Sorted List to Binary Search Tree">
+<meta property="og:url" content="https://hyeon.dev/2019/04/24/2019-04-24-leetcode-109/index.html">
 <meta property="og:site_name" content="hyeon&#39;s devlog">
+<meta property="og:description" content="Convert Sorted List to Binary Search Tree Solution 1: Convert To Array and Recursion afterward입력이 LinkedList 로 주어진다. 잘 생각해보면 정렬된 배열 -&gt; BST로 바꾸는 것은 간단하다. 해당 배열의 맨 중간 값을 현재 노드의 값으로 선택하고 왼쪽 서브 배열, 오른쪽">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://hyeon.dev/images/og_image.png">
+<meta property="article:published_time" content="2019-04-24T04:19:00.000Z">
+<meta property="article:modified_time" content="2019-12-22T06:43:51.521Z">
 <meta property="article:author" content="Seung Hyeon Kim">
+<meta property="article:tag" content="leetcode">
+<meta property="article:tag" content="cpp">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://hyeon.dev/images/og_image.png">
 
@@ -76,7 +82,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/img/logo.png" alt="hyeon&#39;s devlog" height="28">
+                <img src="/img/logo.png" alt="Convert Sorted List to Binary Search Tree" height="28">
             
             </a>
         </div>
@@ -126,209 +132,120 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
-
-<div class="card widget">
-    <div class="card-content">
-        <h3 class="tag is-link">
-        2019
-        </h3>
-        <div class="timeline">
+<div class="card">
+    
+    <div class="card-content article ">
         
-            <article class="media">
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-04-24T04:19:00.000Z">2019-04-24</time>
                 
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-05-31T15:00:00.000Z">2019-06-01</time>
-                        <a href="/2019/06/01/hello-world/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Hello World</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/hello/">hello</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
                 </div>
-            </article>
-        
-            <article class="media">
                 
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-05-29T10:57:00.000Z">2019-05-29</time>
-                        <a href="/2019/05/29/2019-05-29-leetcode-128/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Longest Consecutive Sequence</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
                 
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-05-23T03:34:00.000Z">2019-05-23</time>
-                        <a href="/2019/05/23/2019-05-23-leetcode-120/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Triangle</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
+                <span class="level-item has-text-grey">
+                    
+                    
+                    3 minutes read (About 442 words)
+                </span>
                 
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-05-22T08:47:00.000Z">2019-05-22</time>
-                        <a href="/2019/05/22/2019-05-22-leetcode-567/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Permutation in String</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
                 
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-05-18T08:51:00.000Z">2019-05-18</time>
-                        <a href="/2019/05/18/2019-05-18-leetcode-130/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Surrounded Regions</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-04-29T06:25:00.000Z">2019-04-29</time>
-                        <a href="/2019/04/29/2019-04-29-leetcode-105/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Construct Binary Tree from Preorder and Inorder Traversal</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-04-24T04:19:00.000Z">2019-04-24</time>
-                        <a href="/2019/04/24/2019-04-24-leetcode-109/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Convert Sorted List to Binary Search Tree</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-04-23T06:35:00.000Z">2019-04-23</time>
-                        <a href="/2019/04/23/2019-04-23-leetcode-102/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Binary Tree Level Order Traversal</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-04-22T02:50:00.000Z">2019-04-22</time>
-                        <a href="/2019/04/22/2019-04-22-leetcode-123/" class="title has-link-black-ter is-size-6 has-text-weight-normal">LeetCode - Best Time to Buy and Sell Stock III</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-04-04T15:00:00.000Z">2019-04-05</time>
-                        <a href="/2019/04/05/2019-04-05-two-sum/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Two Sum</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/algorithm/">algorithm</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
+            </div>
         </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                Convert Sorted List to Binary Search Tree
+            
+        </h1>
+        <div class="content">
+            <p><a href="https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree">Convert Sorted List to Binary Search Tree</a></p>
+<h2 id="Solution-1-Convert-To-Array-and-Recursion-afterward"><a href="#Solution-1-Convert-To-Array-and-Recursion-afterward" class="headerlink" title="Solution 1: Convert To Array and Recursion afterward"></a>Solution 1: Convert To Array and Recursion afterward</h2><p>입력이 LinkedList 로 주어진다. 잘 생각해보면 정렬된 배열 -&gt; BST로 바꾸는 것은 간단하다. 해당 배열의 맨 중간 값을 현재 노드의 값으로 선택하고 왼쪽 서브 배열, 오른쪽 서브 배열에 대해서 각각 Recursion으로 해결해주면 된다.</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">TreeNode* <span class="title">sortedListToBST</span><span class="params">(ListNode* head)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; v;</span><br><span class="line">        <span class="keyword">while</span>(head != <span class="literal">NULL</span>) &#123;</span><br><span class="line">            v.push_back(head-&gt;val);</span><br><span class="line">            head = head-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> sortedListToBST(v, <span class="number">0</span>, v.size()<span class="number">-1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function">TreeNode* <span class="title">sortedListToBST</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; v, <span class="keyword">int</span> s, <span class="keyword">int</span> e)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(s == e) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> TreeNode(v[s]);</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span>(s &gt; e) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> m = (s+e)/<span class="number">2</span>;</span><br><span class="line">        TreeNode* root = <span class="keyword">new</span> TreeNode(v[m]);</span><br><span class="line">        root-&gt;left = sortedListToBST(v, s, m<span class="number">-1</span>);</span><br><span class="line">        root-&gt;right = sortedListToBST(v, m+<span class="number">1</span>, e);</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>시간복잡도는 따라서 O(n)이 된다. </p>
+<h2 id="Solution-2-Recursion"><a href="#Solution-2-Recursion" class="headerlink" title="Solution 2: Recursion"></a>Solution 2: Recursion</h2><p>2번은 1번의 경우와 비슷하지만 배열로 변환하지 않은 버전이다.</p>
+<p>1번 솔루션과 비슷하다. 단지 다른 점이라고 하면 루트를 먼저 만드는게 아니라 노드의 left를 먼저 구하고 root를 설정하고 right를 구한다.</p>
+<p>이를 recursive 하게 진행하면 된다.</p>
+<p>이 방법은 단번에 생각해내기 어렵다..</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">TreeNode* <span class="title">sortedListToBST</span><span class="params">(ListNode* head)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!head) <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">        <span class="keyword">int</span> c = <span class="number">0</span>;</span><br><span class="line">        ListNode* cur = head;</span><br><span class="line">        <span class="keyword">while</span>(cur) &#123;</span><br><span class="line">            c++;</span><br><span class="line">            cur = cur-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> makeBST(head, <span class="number">0</span>, c - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function">TreeNode* <span class="title">makeBST</span><span class="params">(ListNode*&amp; head, <span class="keyword">int</span> s,<span class="keyword">int</span> e)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(s &gt; e) <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">        <span class="keyword">int</span> mid = (s+e)/<span class="number">2</span>;</span><br><span class="line">        TreeNode* left = makeBST(head, s, mid<span class="number">-1</span>);</span><br><span class="line">        TreeNode* root = <span class="keyword">new</span> TreeNode(head-&gt;val);</span><br><span class="line">        root-&gt;left = left;</span><br><span class="line">        head = head-&gt;next;</span><br><span class="line">        root-&gt;right = makeBST(head, mid+<span class="number">1</span>, e);</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>Time complexity 는 O(n) 이다. 이는 Solution 1과 같지만 Space Complexity가 O(1)으로 O(n)인 1번 솔루션에 비해 더 좋다고 할 수 있다.</p>
+<h2 id="관련-지식"><a href="#관련-지식" class="headerlink" title="관련 지식"></a>관련 지식</h2><p>다음 3가지의 트리 순회 방법에 대해서 제대로 숙지하는 것이 좋을 것 같다.</p>
+<ul>
+<li>Inorder</li>
+<li>Preorder</li>
+<li>Postorder</li>
+</ul>
+
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/cpp/" rel="tag">cpp</a>, <a class="has-link-grey -link" href="/tags/leetcode/" rel="tag">leetcode</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
     </div>
 </div>
 
 
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/2019/04/29/2019-04-29-leetcode-105/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">Construct Binary Tree from Preorder and Inorder Traversal</span>
+            </a>
+        </div>
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2019/04/23/2019-04-23-leetcode-102/">
+                <span class="level-item">Binary Tree Level Order Traversal</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="title is-5 has-text-weight-normal">Comments</h3>
+        
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://hyeon.dev/2019/04/24/2019-04-24-leetcode-109/';
+        this.page.identifier = '2019/04/24/2019-04-24-leetcode-109/';
+    };
+    (function() {
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'hyeon' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<div id="disqus_thread">
+    
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    </div>
+</div>
 </div>
                 
 
@@ -910,7 +827,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/img/logo.png" alt="hyeon&#39;s devlog" height="28">
+                    <img src="/img/logo.png" alt="Convert Sorted List to Binary Search Tree" height="28">
                 
                 </a>
                 <p class="is-size-7">
