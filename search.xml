@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>SWE &amp; ML Collections</title>
+      <link href="/2019/12/27/swe-ml-collection/"/>
+      <url>/2019/12/27/swe-ml-collection/</url>
+      
+        <content type="html"><![CDATA[<h1 id="주요-사이트"><a href="#주요-사이트" class="headerlink" title="주요 사이트"></a>주요 사이트</h1><ul><li><a href="https://deeplearning.ai">deeplearning.ai</a></li><li><a href="https://www.kakaobrain.com/">카카오브레인</a></li><li><a href="https://paperswithcode.com/sota">State-of-the-Art for dl</a></li><li><a href="https://www.44bits.io/ko">44bits.io/ko</a></li></ul><h1 id="도움되는-글-AI"><a href="#도움되는-글-AI" class="headerlink" title="도움되는 글 (AI)"></a>도움되는 글 (AI)</h1><ul><li><a href="https://blog.deeplearning.ai/blog/the-batch-biggest-ai-stories-of-2019-driverless-cars-stall-deepfakes-go-mainstream-face-recognition-gets-banned?fbclid=IwAR1U0TCCvW9giK3KacoyOsPcXo-cxA-Fx1cE9hxPYvxwyV5we1LGzfAup5c">AI 최신 동향</a></li><li><a href="https://gomcine.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EA%B3%B5%EB%B6%80-%EC%88%9C%EC%84%9C-%EB%B0%8F-%EB%B0%A9%EB%B2%95-%EA%B0%95%EC%9D%98-%EC%A0%95%EB%A6%AC?fbclid=IwAR1OOMGfcCtEfjoQ6sEkknaYDDkmO6pHfazxvyczkIHX4lLy745q-WwdWes">머신러닝 공부순서</a></li><li><a href="https://huyenchip.com/2019/12/18/key-trends-neurips-2019.html?fbclid=IwAR3h-X-iJ3ba-3XWusHvPnwd5pu4LQEXLSekFu6DgnFmLVs4pOq0XZ-TdNw">Key trends from NeurIPS 2019</a></li><li><a href="https://zzsza.github.io/data/2019/12/15/rules-of-ml/?fbclid=IwAR2RS_x1Q-e3PReVK64fjQrNYhWS2wU_3QKepI2UaWaYb6uX1RufD4rTstE">Rules of Machine Learning: Best Practices for ML Engineering</a></li><li><a href="https://jameskle.com/writes/deep-learning-infrastructure-tooling?fbclid=IwAR1w9lm3RKUVkAJqNTbIa-l8-W1jsZ7qknkLwRBjkvHZX5e6NNmjjg3DOR4">Fullstack of Deep learning, 딥러닝 레퍼런스</a></li><li><a href="https://papers.nips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library?fbclid=IwAR3HbBnYpKeaK2-w5BctX2ec-GyszHVng-Q66UpOv_XMaLXhbhnUDXTuKnQ">Pytorch 논문</a></li><li><a href="https://landscape.lfai.foundation/?fbclid=IwAR1km-3ABrHtewr1fGOS-bNNrU2gizu2Q6UXrSRbiiKyESdWBePWf9n6ZUM">LF AI Foundation Interactive Landscape</a></li><li><a href="http://www.datamarket.kr/xe/board_fpbt85/55766?fbclid=IwAR0CvOXc3HWz_abD_GrIBX7Xf3_JtzPnNEEkm_15-BkNP4R07bCfy5j7CGs">인공지능, 통계 관련 유용한 무료 강의 &amp; 책 모음</a></li><li><a href="https://media-ai.tistory.com/7?fbclid=IwAR3MEUuH9x0ydCeq3o1c3BdrJAZOrV2xtWCyoB7wgpgwlsNENBfdLYZQAKc">논문 읽기와 ML/DL 커리어 경력에 대한 조언 by Andrew Ng</a></li><li><a href="https://www.youtube.com/watch?v=09_LlHjoEiY&feature=youtu.be&fbclid=IwAR2TMC3DHQ9Z69xBSnP2hjR6g_1XqW8cDO6sl05_KoPflBMnAeJ8-XqSlnY">Graph Theory Algorithms</a></li><li><a href="http://soopsaram.com/ml/?fbclid=IwAR1MXTnvg9wk1nk2kfhO2RbdFtylMn4vsDIfQfwVlVv9HmtNONtez6TqLs4">Machine Learning 정리</a></li></ul><h1 id="도움-되는-글-SWE"><a href="#도움-되는-글-SWE" class="headerlink" title="도움 되는 글 (SWE)"></a>도움 되는 글 (SWE)</h1><ul><li><a href="https://www.44bits.io/ko/post/how-docker-image-work?fbclid=IwAR1nd-3eII-DJ-WHwj1xFhQSNxsdfEUIkPt6pIoY-GNMnuW65cS664BtLvA">만들면서 이해하는 도커 이미지의 구조</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> ai </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> machine-learning </tag>
+            
+            <tag> deep-learning </tag>
+            
+            <tag> swe </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2020년의 계획</title>
+      <link href="/2019/12/27/2020-resolution/"/>
+      <url>/2019/12/27/2020-resolution/</url>
+      
+        <content type="html"><![CDATA[<h1 id="올해-전반-계획"><a href="#올해-전반-계획" class="headerlink" title="올해 전반 계획"></a>올해 전반 계획</h1><ul><li>논문 읽기 스터디 (매주)</li><li>leetcode 화이트 보드 연습</li><li>배운 것들을 블로그에 써가는 습관</li><li>운동 ( 기초 체력 단련 위주 )</li><li>1일 1커밋</li></ul><h1 id="1월-3월"><a href="#1월-3월" class="headerlink" title="1월 ~ 3월"></a>1월 ~ 3월</h1><ul><li>풀잎교실 수학 수업</li></ul><h1 id="4월-10월"><a href="#4월-10월" class="headerlink" title="4월 ~ 10월"></a>4월 ~ 10월</h1><ul><li><a href="https://www.coursera.org/specializations/aml?recoOrder=6&utm_medium=email&utm_source=recommendations&utm_campaign=8ml6oCXHEeqnEClWfXMgdQ#faq">Coursera, Advanced Machine Learning</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> life </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> resolution </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2019/06/01/hello-world/"/>
       <url>/2019/06/01/hello-world/</url>
