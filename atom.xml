@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>hyeon&#39;s devlog</title>
+  <icon>https://hyeon.dev/img/logo.png</icon>
+  <subtitle>Keep learning deep learning</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://hyeon.dev/"/>
+  <updated>2020-01-03T18:34:25.848Z</updated>
+  <id>https://hyeon.dev/</id>
+  
+  <author>
+    <name>Seung Hyeon Kim</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>객체지향 개념 정리 (발표)</title>
+    <link href="https://hyeon.dev/2020/01/03/oop/"/>
+    <id>https://hyeon.dev/2020/01/03/oop/</id>
+    <published>2020-01-02T15:00:00.000Z</published>
+    <updated>2020-01-03T18:34:25.848Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;객체지향-이란-무엇인가&quot;&gt;&lt;a href=&quot;#객체지향-이란-무엇인가&quot; class=&quot;headerlink&quot; title=&quot;객체지향 이란 무엇인가?&quot;&gt;&lt;/a&gt;객체지향 이란 무엇인가?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;프로그래밍에서 필요한 데이터를 추상화
+        
+      
+    
+    </summary>
+    
+    
+      <category term="engineering" scheme="https://hyeon.dev/categories/engineering/"/>
+    
+    
+      <category term="swe" scheme="https://hyeon.dev/tags/swe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019년도의 회고 그리고 반성</title>
+    <link href="https://hyeon.dev/2019/12/31/2019-retrospect/"/>
+    <id>https://hyeon.dev/2019/12/31/2019-retrospect/</id>
+    <published>2019-12-30T15:00:00.000Z</published>
+    <updated>2020-01-01T23:11:30.145Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;서론&quot;&gt;&lt;a href=&quot;#서론&quot; class=&quot;headerlink&quot; title=&quot;서론&quot;&gt;&lt;/a&gt;서론&lt;/h1&gt;&lt;p&gt;길고 길던 2019년이 지났고, 나는 마침내 군대+휴학 포함 8년을 다니던 대학교를 졸업한다. 대학생의 나는 그다지
+        
+      
+    
+    </summary>
+    
+    
+      <category term="life" scheme="https://hyeon.dev/categories/life/"/>
+    
+    
+      <category term="retrospect" scheme="https://hyeon.dev/tags/retrospect/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWE &amp; ML Collections</title>
+    <link href="https://hyeon.dev/2019/12/27/swe-ml-collection/"/>
+    <id>https://hyeon.dev/2019/12/27/swe-ml-collection/</id>
+    <published>2019-12-26T15:00:00.000Z</published>
+    <updated>2020-01-01T23:23:58.180Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;주요-사이트&quot;&gt;&lt;a href=&quot;#주요-사이트&quot; class=&quot;headerlink&quot; title=&quot;주요 사이트&quot;&gt;&lt;/a&gt;주요 사이트&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="ai" scheme="https://hyeon.dev/categories/ai/"/>
+    
+    
+      <category term="machine-learning" scheme="https://hyeon.dev/tags/machine-learning/"/>
+    
+      <category term="deep-learning" scheme="https://hyeon.dev/tags/deep-learning/"/>
+    
+      <category term="swe" scheme="https://hyeon.dev/tags/swe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020년의 계획</title>
+    <link href="https://hyeon.dev/2019/12/27/2020-resolution/"/>
+    <id>https://hyeon.dev/2019/12/27/2020-resolution/</id>
+    <published>2019-12-26T15:00:00.000Z</published>
+    <updated>2019-12-31T17:22:17.117Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;올해-전반-계획&quot;&gt;&lt;a href=&quot;#올해-전반-계획&quot; class=&quot;headerlink&quot; title=&quot;올해 전반 계획&quot;&gt;&lt;/a&gt;올해 전반 계획&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;논문 읽기 스터디 (매주)&lt;/li&gt;
+&lt;li&gt;leetcode 화이트 보드
+        
+      
+    
+    </summary>
+    
+    
+      <category term="life" scheme="https://hyeon.dev/categories/life/"/>
+    
+    
+      <category term="resolution" scheme="https://hyeon.dev/tags/resolution/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://hyeon.dev/2019/06/01/hello-world/"/>
+    <id>https://hyeon.dev/2019/06/01/hello-world/</id>
+    <published>2019-05-31T15:00:00.000Z</published>
+    <updated>2019-12-22T06:24:54.137Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="hello" scheme="https://hyeon.dev/categories/hello/"/>
+    
+    
+      <category term="hello" scheme="https://hyeon.dev/tags/hello/"/>
+    
+      <category term="first" scheme="https://hyeon.dev/tags/first/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Longest Consecutive Sequence</title>
+    <link href="https://hyeon.dev/2019/05/29/2019-05-29-leetcode-128/"/>
+    <id>https://hyeon.dev/2019/05/29/2019-05-29-leetcode-128/</id>
+    <published>2019-05-29T10:57:00.000Z</published>
+    <updated>2019-12-22T06:44:12.139Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/longest-consecutive-sequence/&quot;&gt;Longest Consecutive Sequence&lt;/a&gt;&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://hyeon.dev/categories/algorithm/"/>
+    
+    
+      <category term="leetcode" scheme="https://hyeon.dev/tags/leetcode/"/>
+    
+      <category term="cpp" scheme="https://hyeon.dev/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Triangle</title>
+    <link href="https://hyeon.dev/2019/05/23/2019-05-23-leetcode-120/"/>
+    <id>https://hyeon.dev/2019/05/23/2019-05-23-leetcode-120/</id>
+    <published>2019-05-23T03:34:00.000Z</published>
+    <updated>2019-12-22T06:44:07.698Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/triangle/&quot;&gt;Triangle&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Solution-1-Recursion-TLE&quot;&gt;&lt;a href=&quot;#Solution-1-Recursion-TLE&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://hyeon.dev/categories/algorithm/"/>
+    
+    
+      <category term="leetcode" scheme="https://hyeon.dev/tags/leetcode/"/>
+    
+      <category term="cpp" scheme="https://hyeon.dev/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Permutation in String</title>
+    <link href="https://hyeon.dev/2019/05/22/2019-05-22-leetcode-567/"/>
+    <id>https://hyeon.dev/2019/05/22/2019-05-22-leetcode-567/</id>
+    <published>2019-05-22T08:47:00.000Z</published>
+    <updated>2019-12-22T06:44:04.118Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/permutation-in-string/&quot;&gt;Permutation in String&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Solution-Sliding-window&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://hyeon.dev/categories/algorithm/"/>
+    
+    
+      <category term="leetcode" scheme="https://hyeon.dev/tags/leetcode/"/>
+    
+      <category term="cpp" scheme="https://hyeon.dev/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Surrounded Regions</title>
+    <link href="https://hyeon.dev/2019/05/18/2019-05-18-leetcode-130/"/>
+    <id>https://hyeon.dev/2019/05/18/2019-05-18-leetcode-130/</id>
+    <published>2019-05-18T08:51:00.000Z</published>
+    <updated>2019-12-22T06:43:59.537Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/surrounded-regions/&quot;&gt;Surrounded Regions&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Solution-1-BFS&quot;&gt;&lt;a href=&quot;#Solution-1-BFS&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://hyeon.dev/categories/algorithm/"/>
+    
+    
+      <category term="leetcode" scheme="https://hyeon.dev/tags/leetcode/"/>
+    
+      <category term="cpp" scheme="https://hyeon.dev/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Construct Binary Tree from Preorder and Inorder Traversal</title>
+    <link href="https://hyeon.dev/2019/04/29/2019-04-29-leetcode-105/"/>
+    <id>https://hyeon.dev/2019/04/29/2019-04-29-leetcode-105/</id>
+    <published>2019-04-29T06:25:00.000Z</published>
+    <updated>2019-12-22T06:43:55.028Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/&quot;&gt;Construct Binary Tree from Preorder
+        
+      
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://hyeon.dev/categories/algorithm/"/>
+    
+    
+      <category term="leetcode" scheme="https://hyeon.dev/tags/leetcode/"/>
+    
+      <category term="cpp" scheme="https://hyeon.dev/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Convert Sorted List to Binary Search Tree</title>
+    <link href="https://hyeon.dev/2019/04/24/2019-04-24-leetcode-109/"/>
+    <id>https://hyeon.dev/2019/04/24/2019-04-24-leetcode-109/</id>
+    <published>2019-04-24T04:19:00.000Z</published>
+    <updated>2019-12-22T06:43:51.521Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree&quot;&gt;Convert Sorted List to Binary Search Tree&lt;/a&gt;&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://hyeon.dev/categories/algorithm/"/>
+    
+    
+      <category term="leetcode" scheme="https://hyeon.dev/tags/leetcode/"/>
+    
+      <category term="cpp" scheme="https://hyeon.dev/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Binary Tree Level Order Traversal</title>
+    <link href="https://hyeon.dev/2019/04/23/2019-04-23-leetcode-102/"/>
+    <id>https://hyeon.dev/2019/04/23/2019-04-23-leetcode-102/</id>
+    <published>2019-04-23T06:35:00.000Z</published>
+    <updated>2019-12-22T06:43:47.392Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/binary-tree-level-order-traversal&quot;&gt;Binary Tree Level Order Traversal&lt;/a&gt;&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://hyeon.dev/categories/algorithm/"/>
+    
+    
+      <category term="leetcode" scheme="https://hyeon.dev/tags/leetcode/"/>
+    
+      <category term="cpp" scheme="https://hyeon.dev/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LeetCode - Best Time to Buy and Sell Stock III</title>
+    <link href="https://hyeon.dev/2019/04/22/2019-04-22-leetcode-123/"/>
+    <id>https://hyeon.dev/2019/04/22/2019-04-22-leetcode-123/</id>
+    <published>2019-04-22T02:50:00.000Z</published>
+    <updated>2019-12-22T06:43:41.869Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Say you have an array for which the $i^{th}$ element is the place of a given stock on day &lt;em&gt;i&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Design an algorithm to find
+        
+      
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://hyeon.dev/categories/algorithm/"/>
+    
+    
+      <category term="leetcode" scheme="https://hyeon.dev/tags/leetcode/"/>
+    
+      <category term="cpp" scheme="https://hyeon.dev/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Two Sum</title>
+    <link href="https://hyeon.dev/2019/04/05/2019-04-05-two-sum/"/>
+    <id>https://hyeon.dev/2019/04/05/2019-04-05-two-sum/</id>
+    <published>2019-04-04T15:00:00.000Z</published>
+    <updated>2019-12-22T06:43:32.350Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Given a sorted array of integers and an integer &lt;code&gt;n&lt;/code&gt;, find a pair of elements which sum is &lt;code&gt;n&lt;/code&gt;.&lt;br&gt;For example,
+        
+      
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://hyeon.dev/categories/algorithm/"/>
+    
+    
+      <category term="leetcode" scheme="https://hyeon.dev/tags/leetcode/"/>
+    
+      <category term="cpp" scheme="https://hyeon.dev/tags/cpp/"/>
+    
+  </entry>
+  
+</feed>
